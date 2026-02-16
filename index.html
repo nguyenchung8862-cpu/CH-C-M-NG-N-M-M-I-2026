@@ -90,16 +90,29 @@
     			display: inline-block;
 
     			font-size: clamp(14px, 4vw, 18px);
-    			padding: 8px 14px;
+    			padding: 8px 16px;
 
-    			max-width: 100%;
+    			max-width: 90%;
     			box-sizing: border-box;
 
     			white-space: normal;
     			word-break: break-word;
-    			overflow-wrap: break-word;
-
     			text-align: center;
+
+    			/* KHUNG */
+    			background: rgba(0, 0, 0, 0.4);
+    			border: 2px solid rgba(255, 192, 203, 0.9);
+    			border-radius: 999px;
+
+    			/* PHÁT SÁNG */
+   			color: #ff9ad9;
+    			text-shadow:
+        		0 0 6px rgba(255, 105, 180, 0.9),
+        		0 0 18px rgba(255, 20, 147, 0.8);
+
+   			 box-shadow:
+        		0 0 12px rgba(255, 105, 180, 0.7),
+        		0 0 24px rgba(255, 20, 147, 0.5);
 			}
 
 			/* Responsive cho mobile */
